@@ -1,4 +1,4 @@
-prebuilt_cxx_library(
+cxx_library(
   name = 'zmq',
   header_namespace = '',
   exported_headers = subdir_glob([
